@@ -1,0 +1,6 @@
+framework module LKDLNAModule {
+  umbrella header "LKDLNAModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

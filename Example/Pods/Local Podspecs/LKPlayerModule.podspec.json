@@ -1,0 +1,49 @@
+{
+  "name": "LKPlayerModule",
+  "version": "1",
+  "summary": "A short description of LKPlayerModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kaige1123/LKPlayerModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kaige1123": "948158677@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/kaige1123/LKPlayerModule.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LKPlayerModule/Classes/**/*",
+  "resource_bundles": {
+    "LKPlayerModule": [
+      "LKPlayerModule/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "LKCommonUIModule": [
+
+    ],
+    "LKDLNAModule": [
+
+    ],
+    "JSONModel": [
+
+    ],
+    "Masonry": [
+
+    ]
+  },
+  "prefix_header_contents": [
+    "#import \"LGMacros.h\"",
+    "#import \"Masonry.h\"",
+    "#import \"LGLoading.h\"",
+    "#import \"UIKit+AFNetworking.h\"",
+    "#import \"LGToast.h\"",
+    "#import \"LGShare.h\""
+  ]
+}

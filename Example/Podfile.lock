@@ -1,0 +1,115 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.6.5)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JSONModel (1.8.0)
+  - LKCommonUIModule (1):
+    - AFNetworking
+    - LKCommonUIModule/LGErrorView (= 1)
+    - LKCommonUIModule/LGLoading (= 1)
+    - LKCommonUIModule/LGSegmentedControl (= 1)
+    - LKCommonUIModule/LGShare (= 1)
+    - LKCommonUIModule/LGToast (= 1)
+    - LKMacroCategoryModule
+    - Masonry
+  - LKCommonUIModule/LGErrorView (1):
+    - AFNetworking
+    - LKMacroCategoryModule
+    - Masonry
+  - LKCommonUIModule/LGLoading (1):
+    - AFNetworking
+    - LKMacroCategoryModule
+    - Masonry
+  - LKCommonUIModule/LGSegmentedControl (1):
+    - AFNetworking
+    - LKMacroCategoryModule
+    - Masonry
+  - LKCommonUIModule/LGShare (1):
+    - AFNetworking
+    - LKCommonUIModule/LGToast
+    - LKMacroCategoryModule
+    - Masonry
+  - LKCommonUIModule/LGToast (1):
+    - AFNetworking
+    - LKMacroCategoryModule
+    - Masonry
+  - LKDLNAModule (1):
+    - LKMacroCategoryModule
+    - MRDLNA
+  - LKMacroCategoryModule (1)
+  - LKPlayerModule (1):
+    - JSONModel
+    - LKCommonUIModule
+    - LKDLNAModule
+    - Masonry
+  - Masonry (1.1.0)
+  - MRDLNA (0.1.1):
+    - CocoaAsyncSocket
+    - MRDLNA/MRC (= 0.1.1)
+  - MRDLNA/MRC (0.1.1):
+    - CocoaAsyncSocket
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LKCommonUIModule (from `../../LKCommonUIModule`)
+  - LKDLNAModule (from `../../LKDLNAModule`)
+  - LKMacroCategoryModule (from `https://github.com/kaige1123/LKMacroCategoryModule.git`)
+  - LKPlayerModule (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CocoaAsyncSocket
+    - FBSnapshotTestCase
+    - JSONModel
+    - Masonry
+    - MRDLNA
+
+EXTERNAL SOURCES:
+  LKCommonUIModule:
+    :path: "../../LKCommonUIModule"
+  LKDLNAModule:
+    :path: "../../LKDLNAModule"
+  LKMacroCategoryModule:
+    :git: https://github.com/kaige1123/LKMacroCategoryModule.git
+  LKPlayerModule:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  LKMacroCategoryModule:
+    :commit: a576fdaabc46ea39863a3c865ed1f0cdb445b6ea
+    :git: https://github.com/kaige1123/LKMacroCategoryModule.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  LKCommonUIModule: 0bd2a6780c795b2cdcad122cc88b37c93d42d937
+  LKDLNAModule: f0adefc7625162eed16f823804a8a50dd62e333e
+  LKMacroCategoryModule: ba028e0a31ac596a670bb52419529b34859a19a4
+  LKPlayerModule: 208f734ef86b9be8184a5c6479f71cc61734d3f0
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MRDLNA: 3fe35c6ac57c946413d07896faeb9101c4d8853d
+
+PODFILE CHECKSUM: c883b7a96ade9d0fb70569730493cca222a523f2
+
+COCOAPODS: 1.10.1

@@ -4,6 +4,11 @@ platform :ios, '9.0'
 
 target 'LKPlayerModule_Example' do
   pod 'LKPlayerModule', :path => '../'
+  pod 'LKMacroCategoryModule', :git => 'https://github.com/kaige1123/LKMacroCategoryModule.git'
+#  pod 'LKCommonUIModule', :git => 'https://github.com/kaige1123/LKCommonUIModule.git'
+#  pod 'LKDLNAModule', :git => 'https://github.com/kaige1123/LKDLNAModule.git'
+  pod 'LKCommonUIModule', :path => '../../LKCommonUIModule'
+  pod 'LKDLNAModule', :path => '../../LKDLNAModule'
 
   target 'LKPlayerModule_Tests' do
     inherit! :search_paths

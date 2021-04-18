@@ -1,0 +1,6 @@
+framework module LKPlayerModule {
+  umbrella header "LKPlayerModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
