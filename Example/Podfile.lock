@@ -71,7 +71,7 @@ DEPENDENCIES:
   - FBSnapshotTestCase
   - LKCommonUIModule (from `../../LKCommonUIModule`)
   - LKDLNAModule (from `../../LKDLNAModule`)
-  - LKMacroCategoryModule (from `https://github.com/kaige1123/LKMacroCategoryModule.git`)
+  - LKMacroCategoryModule (from `../../LKMacroCategoryModule`)
   - LKPlayerModule (from `../`)
 
 SPEC REPOS:
@@ -89,14 +89,9 @@ EXTERNAL SOURCES:
   LKDLNAModule:
     :path: "../../LKDLNAModule"
   LKMacroCategoryModule:
-    :git: https://github.com/kaige1123/LKMacroCategoryModule.git
+    :path: "../../LKMacroCategoryModule"
   LKPlayerModule:
     :path: "../"
-
-CHECKOUT OPTIONS:
-  LKMacroCategoryModule:
-    :commit: a576fdaabc46ea39863a3c865ed1f0cdb445b6ea
-    :git: https://github.com/kaige1123/LKMacroCategoryModule.git
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
@@ -110,6 +105,6 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MRDLNA: 3fe35c6ac57c946413d07896faeb9101c4d8853d
 
-PODFILE CHECKSUM: c883b7a96ade9d0fb70569730493cca222a523f2
+PODFILE CHECKSUM: d7dfdd3844180d04f29fb45556fbca5cbcf18484
 
 COCOAPODS: 1.10.1

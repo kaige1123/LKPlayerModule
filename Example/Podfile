@@ -1,12 +1,15 @@
+#source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://github.com/kaige1123/LKVideoSpecs.git'
 use_frameworks!
 
 platform :ios, '9.0'
 
 target 'LKPlayerModule_Example' do
   pod 'LKPlayerModule', :path => '../'
-  pod 'LKMacroCategoryModule', :git => 'https://github.com/kaige1123/LKMacroCategoryModule.git'
+#  pod 'LKMacroCategoryModule', :git => 'https://github.com/kaige1123/LKMacroCategoryModule.git'
 #  pod 'LKCommonUIModule', :git => 'https://github.com/kaige1123/LKCommonUIModule.git'
 #  pod 'LKDLNAModule', :git => 'https://github.com/kaige1123/LKDLNAModule.git'
+  pod 'LKMacroCategoryModule', :path => '../../LKMacroCategoryModule'
   pod 'LKCommonUIModule', :path => '../../LKCommonUIModule'
   pod 'LKDLNAModule', :path => '../../LKDLNAModule'
 
