@@ -43,9 +43,9 @@ PODS:
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - LKCommonUIModule (from `https://github.com/kaige1123/LKCommonUIModule.git`)
-  - LKDLNAModule (from `https://github.com/kaige1123/LKDLNAModule.git`)
-  - LKMacroCategoryModule (from `https://github.com/kaige1123/LKMacroCategoryModule.git`)
+  - LKCommonUIModule (from `../../LKCommonUIModule`)
+  - LKDLNAModule (from `../../LKDLNAModule`)
+  - LKMacroCategoryModule (from `../../LKMacroCategoryModule`)
   - LKPlayerModule (from `../`)
 
 SPEC REPOS:
@@ -59,24 +59,13 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   LKCommonUIModule:
-    :git: https://github.com/kaige1123/LKCommonUIModule.git
+    :path: "../../LKCommonUIModule"
   LKDLNAModule:
-    :git: https://github.com/kaige1123/LKDLNAModule.git
+    :path: "../../LKDLNAModule"
   LKMacroCategoryModule:
-    :git: https://github.com/kaige1123/LKMacroCategoryModule.git
+    :path: "../../LKMacroCategoryModule"
   LKPlayerModule:
     :path: "../"
-
-CHECKOUT OPTIONS:
-  LKCommonUIModule:
-    :commit: 580de8954fb38ef32bfefd0e49c63a48e751fa0c
-    :git: https://github.com/kaige1123/LKCommonUIModule.git
-  LKDLNAModule:
-    :commit: c906bd979a035aff099d29bd383595acfe0a9e2e
-    :git: https://github.com/kaige1123/LKDLNAModule.git
-  LKMacroCategoryModule:
-    :commit: a576fdaabc46ea39863a3c865ed1f0cdb445b6ea
-    :git: https://github.com/kaige1123/LKMacroCategoryModule.git
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
@@ -90,6 +79,6 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MRDLNA: 3fe35c6ac57c946413d07896faeb9101c4d8853d
 
-PODFILE CHECKSUM: d2aba4ff7e3072f72fe10630555aa8e3cabbb193
+PODFILE CHECKSUM: fe92d9483eb85d7bbdaea53358b87b22e014087e
 
 COCOAPODS: 1.10.1
