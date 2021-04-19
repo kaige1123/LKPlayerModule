@@ -75,7 +75,7 @@ DEPENDENCIES:
   - LKPlayerModule (from `../`)
 
 SPEC REPOS:
-  trunk:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - AFNetworking
     - CocoaAsyncSocket
     - FBSnapshotTestCase
@@ -116,6 +116,6 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MRDLNA: 3fe35c6ac57c946413d07896faeb9101c4d8853d
 
-PODFILE CHECKSUM: eb05671658aaeb633e3e6103d6567888eb9f6686
+PODFILE CHECKSUM: d2aba4ff7e3072f72fe10630555aa8e3cabbb193
 
 COCOAPODS: 1.10.1
