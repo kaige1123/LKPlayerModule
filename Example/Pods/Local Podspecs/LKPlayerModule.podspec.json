@@ -1,6 +1,6 @@
 {
   "name": "LKPlayerModule",
-  "version": "1",
+  "version": "2",
   "summary": "A short description of LKPlayerModule.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/kaige1123/LKPlayerModule",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/kaige1123/LKPlayerModule.git",
-    "tag": "1"
+    "tag": "2"
   },
   "platforms": {
     "ios": "9.0"

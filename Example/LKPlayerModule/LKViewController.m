@@ -7,6 +7,7 @@
 //
 
 #import "LKViewController.h"
+#import "LGLoading.h"
 
 @interface LKViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [LGLoading alloc];
+    
 }
 
 - (void)didReceiveMemoryWarning

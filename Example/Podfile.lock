@@ -21,33 +21,7 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - JSONModel (1.8.0)
-  - LKCommonUIModule (1):
-    - AFNetworking
-    - LKCommonUIModule/LGErrorView (= 1)
-    - LKCommonUIModule/LGLoading (= 1)
-    - LKCommonUIModule/LGSegmentedControl (= 1)
-    - LKCommonUIModule/LGShare (= 1)
-    - LKCommonUIModule/LGToast (= 1)
-    - LKMacroCategoryModule
-    - Masonry
-  - LKCommonUIModule/LGErrorView (1):
-    - AFNetworking
-    - LKMacroCategoryModule
-    - Masonry
-  - LKCommonUIModule/LGLoading (1):
-    - AFNetworking
-    - LKMacroCategoryModule
-    - Masonry
-  - LKCommonUIModule/LGSegmentedControl (1):
-    - AFNetworking
-    - LKMacroCategoryModule
-    - Masonry
-  - LKCommonUIModule/LGShare (1):
-    - AFNetworking
-    - LKCommonUIModule/LGToast
-    - LKMacroCategoryModule
-    - Masonry
-  - LKCommonUIModule/LGToast (1):
+  - LKCommonUIModule (2):
     - AFNetworking
     - LKMacroCategoryModule
     - Masonry
@@ -55,7 +29,7 @@ PODS:
     - LKMacroCategoryModule
     - MRDLNA
   - LKMacroCategoryModule (1)
-  - LKPlayerModule (1):
+  - LKPlayerModule (2):
     - JSONModel
     - LKCommonUIModule
     - LKDLNAModule
@@ -95,7 +69,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   LKCommonUIModule:
-    :commit: add032cbf2c5acc63f89713c4f3f264c6874191a
+    :commit: 580de8954fb38ef32bfefd0e49c63a48e751fa0c
     :git: https://github.com/kaige1123/LKCommonUIModule.git
   LKDLNAModule:
     :commit: c906bd979a035aff099d29bd383595acfe0a9e2e
@@ -109,10 +83,10 @@ SPEC CHECKSUMS:
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
-  LKCommonUIModule: 0bd2a6780c795b2cdcad122cc88b37c93d42d937
+  LKCommonUIModule: 99636051ac0fe91052c8dfad6fe72df7219b1926
   LKDLNAModule: f0adefc7625162eed16f823804a8a50dd62e333e
   LKMacroCategoryModule: ba028e0a31ac596a670bb52419529b34859a19a4
-  LKPlayerModule: 208f734ef86b9be8184a5c6479f71cc61734d3f0
+  LKPlayerModule: ea9a61990be86aedd2e0a20a4ef7b52a96c0e707
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MRDLNA: 3fe35c6ac57c946413d07896faeb9101c4d8853d
 
